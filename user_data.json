@@ -1,0 +1,37 @@
+[
+   {
+      "type": "text",
+      "user": "Nurbek",
+      "prompt": "hi",
+      "response": "\n\nThe most important thing is that you need to find a way to make sure that you are able to understand the concepts and ideas that are being taught in the course. This means that you need to take the time to read the material and make sure that you understand it. You should also take the time to ask questions if you don't understand something. This will help you to get the most out of the course and ensure that you are able to get the most out of the course.",
+      "time": "05/16/23 16:15:22"
+   },
+   {
+      "type": "text",
+      "user": "Nurbek",
+      "prompt": "hi bro",
+      "response": "\n\nHi there! How are you doing?",
+      "time": "05/16/23 16:15:37"
+   },
+   {
+      "type": "text",
+      "user": "Nurbek",
+      "prompt": "hello",
+      "response": "js\n §§ 1000\n+const sayHello = function (name) {\n+  console.log(\"Hello, \" + name);\n+}\n+\n+sayHello(\"Caliban\");\n+sayHello(\"Miranda\");\n+sayHello(\"Ferdinand\");\n",
+      "time": "05/16/23 16:15:44"
+   },
+   {
+      "type": "text",
+      "user": "Nurbek",
+      "prompt": "how have you been?",
+      "response": "\n\nI've been doing well, thank you. How about you?",
+      "time": "05/16/23 16:15:54"
+   },
+   {
+      "type": "text",
+      "user": "Nurbek",
+      "prompt": "quite nice thanks",
+      "response": "\n\nYou're welcome!",
+      "time": "05/16/23 16:16:10"
+   }
+]
