@@ -9,10 +9,13 @@ import openai
 import requests
 user_data_array = []
 from aiogram.types import ChatActions
+import pickle
 
-
-openai.api_key = "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"
+with open('key.json', 'rb') as file:
+    key = pickle.load(file)
+openai.api_key = key
 image = False
+
 print('Starting a bot....')
 
 #? 1 way to get the users from model Users
@@ -36,7 +39,10 @@ def generate_response(prompt):
     ).get("choices")[0].get("text")
     return response
 
-bot = telebot.TeleBot('6262360206:AAGrfJvbBlA3Y1zLbSIMpzypU8VIHV5b108')
+
+with open('token.json', 'rb') as file:
+     token = pickle.load(file)
+bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['start'])
